@@ -14,7 +14,6 @@ p {
 }
 
 /* NAV BAR CODE */
-
 nav li {
     list-style-type: none;
     margin: 0;
@@ -32,14 +31,10 @@ nav li a:hover {
     background-color: grey;
     color: honeydew;
 }
-nav li a:active {
-    background-color: grey;
-    color: honeydew;
-}
-
 /* NAV BAR CODE END */
 
 .img-center {
-    padding-left: auto;
-    padding-right: auto;
+    border: groove;
+    border-width: 5px;
+    border-radius: 10px 0;
 }
