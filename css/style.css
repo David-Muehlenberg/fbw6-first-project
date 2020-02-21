@@ -1,7 +1,6 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: lightyellow;
-    padding: 15px;
 }
 
 h1 {
@@ -12,4 +11,35 @@ h1 {
 p {
     font-size: 20px;
     color: lime;
+}
+
+/* NAV BAR CODE */
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: mediumturquoise;
+}
+nav li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+nav li a:hover {
+    background-color: grey;
+    color: honeydew;
+}
+nav li a:active {
+    background-color: grey;
+    color: honeydew;
+}
+
+/* NAV BAR CODE END */
+
+.img-center {
+    padding-left: auto;
+    padding-right: auto;
 }
